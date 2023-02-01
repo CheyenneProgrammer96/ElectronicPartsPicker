@@ -1,6 +1,6 @@
 ﻿namespace ElectronicPartsPicker
 {
-    partial class Form1
+    partial class FrmOrderForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // FrmOrderForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(972, 630);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(1095, 854);
+            this.Name = "FrmOrderForm";
+            this.Text = "Order Form";
             this.ResumeLayout(false);
 
         }
