@@ -68,6 +68,7 @@
             // 
             // txtOrderTotal
             // 
+            this.txtOrderTotal.Enabled = false;
             this.txtOrderTotal.Location = new System.Drawing.Point(214, 631);
             this.txtOrderTotal.Name = "txtOrderTotal";
             this.txtOrderTotal.Size = new System.Drawing.Size(200, 39);
@@ -75,6 +76,7 @@
             // 
             // txtTax
             // 
+            this.txtTax.Enabled = false;
             this.txtTax.Location = new System.Drawing.Point(214, 562);
             this.txtTax.Name = "txtTax";
             this.txtTax.Size = new System.Drawing.Size(200, 39);
@@ -82,6 +84,7 @@
             // 
             // txtSubtotal
             // 
+            this.txtSubtotal.Enabled = false;
             this.txtSubtotal.Location = new System.Drawing.Point(214, 495);
             this.txtSubtotal.Name = "txtSubtotal";
             this.txtSubtotal.Size = new System.Drawing.Size(200, 39);
