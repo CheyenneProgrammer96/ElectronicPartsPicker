@@ -1,6 +1,6 @@
 ﻿namespace ElectronicPartsPicker
 {
-    partial class Customer
+    partial class CustomerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -149,7 +149,7 @@
             this.btnPlaceOrder.UseVisualStyleBackColor = true;
             this.btnPlaceOrder.Click += new System.EventHandler(this.btnPlaceOrder_Click);
             // 
-            // Customer
+            // CustomerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -167,7 +167,7 @@
             this.Controls.Add(this.txtOrderNumber);
             this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.txtFName);
-            this.Name = "Customer";
+            this.Name = "CustomerForm";
             this.Text = "Customer Form";
             this.ResumeLayout(false);
             this.PerformLayout();
