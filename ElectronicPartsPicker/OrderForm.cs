@@ -1,8 +1,8 @@
 namespace ElectronicPartsPicker
 {
-    public partial class Form1 : Form
+    public partial class FrmOrderForm : Form
     {
-        public Form1()
+        public FrmOrderForm()
         {
             InitializeComponent();
         }
