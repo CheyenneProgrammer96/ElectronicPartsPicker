@@ -16,5 +16,11 @@ namespace ElectronicPartsPicker
         {
             InitializeComponent();
         }
+
+        private void btnPlaceOrder_Click(object sender, EventArgs e)
+        {
+            FrmOrderForm of = new FrmOrderForm();
+            of.ShowDialog();
+        }
     }
 }
