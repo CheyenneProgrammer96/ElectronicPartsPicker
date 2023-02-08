@@ -9,8 +9,12 @@ namespace ElectronicPartsPicker
 {
     public class OrderContext : DbContext
     {
-        public OrderContext(DbContextOptions<OrderContext> options) : base(options) 
+        public OrderContext()
         {
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=ElectronicsPartsPicker;Trusted_Connection=True");
         }
 
         public DbSet<Order> Orders { get; set; }
