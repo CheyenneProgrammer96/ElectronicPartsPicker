@@ -30,10 +30,8 @@
         {
             this.txtFName = new System.Windows.Forms.TextBox();
             this.txtAddress = new System.Windows.Forms.TextBox();
-            this.txtOrderNumber = new System.Windows.Forms.TextBox();
             this.txtEmailAddress = new System.Windows.Forms.TextBox();
             this.lblFName = new System.Windows.Forms.Label();
-            this.lblOrderNumber = new System.Windows.Forms.Label();
             this.lblAddress = new System.Windows.Forms.Label();
             this.lblEmailAddress = new System.Windows.Forms.Label();
             this.lblPhoneNumber = new System.Windows.Forms.Label();
@@ -52,21 +50,14 @@
             // 
             // txtAddress
             // 
-            this.txtAddress.Location = new System.Drawing.Point(304, 333);
+            this.txtAddress.Location = new System.Drawing.Point(304, 248);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(200, 39);
             this.txtAddress.TabIndex = 1;
             // 
-            // txtOrderNumber
-            // 
-            this.txtOrderNumber.Location = new System.Drawing.Point(304, 240);
-            this.txtOrderNumber.Name = "txtOrderNumber";
-            this.txtOrderNumber.Size = new System.Drawing.Size(200, 39);
-            this.txtOrderNumber.TabIndex = 2;
-            // 
             // txtEmailAddress
             // 
-            this.txtEmailAddress.Location = new System.Drawing.Point(304, 420);
+            this.txtEmailAddress.Location = new System.Drawing.Point(304, 344);
             this.txtEmailAddress.Name = "txtEmailAddress";
             this.txtEmailAddress.Size = new System.Drawing.Size(200, 39);
             this.txtEmailAddress.TabIndex = 3;
@@ -80,19 +71,10 @@
             this.lblFName.TabIndex = 4;
             this.lblFName.Text = "First Name";
             // 
-            // lblOrderNumber
-            // 
-            this.lblOrderNumber.AutoSize = true;
-            this.lblOrderNumber.Location = new System.Drawing.Point(96, 240);
-            this.lblOrderNumber.Name = "lblOrderNumber";
-            this.lblOrderNumber.Size = new System.Drawing.Size(170, 32);
-            this.lblOrderNumber.TabIndex = 5;
-            this.lblOrderNumber.Text = "Order Number";
-            // 
             // lblAddress
             // 
             this.lblAddress.AutoSize = true;
-            this.lblAddress.Location = new System.Drawing.Point(96, 322);
+            this.lblAddress.Location = new System.Drawing.Point(96, 255);
             this.lblAddress.Name = "lblAddress";
             this.lblAddress.Size = new System.Drawing.Size(98, 32);
             this.lblAddress.TabIndex = 6;
@@ -101,7 +83,7 @@
             // lblEmailAddress
             // 
             this.lblEmailAddress.AutoSize = true;
-            this.lblEmailAddress.Location = new System.Drawing.Point(89, 427);
+            this.lblEmailAddress.Location = new System.Drawing.Point(89, 351);
             this.lblEmailAddress.Name = "lblEmailAddress";
             this.lblEmailAddress.Size = new System.Drawing.Size(162, 32);
             this.lblEmailAddress.TabIndex = 7;
@@ -110,7 +92,7 @@
             // lblPhoneNumber
             // 
             this.lblPhoneNumber.AutoSize = true;
-            this.lblPhoneNumber.Location = new System.Drawing.Point(89, 525);
+            this.lblPhoneNumber.Location = new System.Drawing.Point(89, 481);
             this.lblPhoneNumber.Name = "lblPhoneNumber";
             this.lblPhoneNumber.Size = new System.Drawing.Size(177, 32);
             this.lblPhoneNumber.TabIndex = 8;
@@ -118,7 +100,7 @@
             // 
             // txtPhoneNumber
             // 
-            this.txtPhoneNumber.Location = new System.Drawing.Point(304, 522);
+            this.txtPhoneNumber.Location = new System.Drawing.Point(304, 478);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.Size = new System.Drawing.Size(200, 39);
             this.txtPhoneNumber.TabIndex = 9;
@@ -141,7 +123,7 @@
             // 
             // btnPlaceOrder
             // 
-            this.btnPlaceOrder.Location = new System.Drawing.Point(279, 669);
+            this.btnPlaceOrder.Location = new System.Drawing.Point(252, 655);
             this.btnPlaceOrder.Name = "btnPlaceOrder";
             this.btnPlaceOrder.Size = new System.Drawing.Size(252, 78);
             this.btnPlaceOrder.TabIndex = 12;
@@ -161,10 +143,8 @@
             this.Controls.Add(this.lblPhoneNumber);
             this.Controls.Add(this.lblEmailAddress);
             this.Controls.Add(this.lblAddress);
-            this.Controls.Add(this.lblOrderNumber);
             this.Controls.Add(this.lblFName);
             this.Controls.Add(this.txtEmailAddress);
-            this.Controls.Add(this.txtOrderNumber);
             this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.txtFName);
             this.Name = "CustomerForm";
@@ -178,10 +158,8 @@
 
         private TextBox txtFName;
         private TextBox txtAddress;
-        private TextBox txtOrderNumber;
         private TextBox txtEmailAddress;
         private Label lblFName;
-        private Label lblOrderNumber;
         private Label lblAddress;
         private Label lblEmailAddress;
         private Label lblPhoneNumber;
