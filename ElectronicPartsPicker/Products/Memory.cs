@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ElectronicPartsPicker.Products
 {
-    internal class Memory
+    public class Memory
     {
         public int MemoryId { get; set; }
 

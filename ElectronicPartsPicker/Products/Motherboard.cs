@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ElectronicPartsPicker.Products
 {
-    internal class Motherboard
+    public class Motherboard
     {
         public int MotherboardId { get; set; }
         public string MotherboardName { get; set; }
