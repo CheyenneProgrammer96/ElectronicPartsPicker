@@ -8,5 +8,9 @@ namespace ElectronicPartsPicker.Products
 {
     internal class Nic
     {
+        public int NicId { get; set; }
+        public string NicName { get; set; }
+        
+        public double NicValue { get; set; }
     }
 }

@@ -8,5 +8,10 @@ namespace ElectronicPartsPicker.Products
 {
     internal class Memory
     {
+        public int MemoryId { get; set; }
+
+        public string Name { get; set; }
+
+        public double memoryValue { get; set; }
     }
 }
