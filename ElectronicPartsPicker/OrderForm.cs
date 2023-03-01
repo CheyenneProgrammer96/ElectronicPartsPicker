@@ -9,9 +9,9 @@ namespace ElectronicPartsPicker
             InitializeComponent();
         }
 
-        public void cboxProductMenu_SelectedIndexChanged(object sender, EventArgs e)
+        public void comboBoxProduct_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void FrmOrderForm_Load(object sender, EventArgs e)
@@ -32,16 +32,18 @@ namespace ElectronicPartsPicker
 
             List<Memory> memory = (from Memory in context.Memorys
                                    select Memory).ToList();
+
+            comboBoxProduct.Items.Add(comboBoxProduct);
         }
 
         private void btnAddProduct_Click(object sender, EventArgs e)
         {
-            comboBoxProduct.Items.Add(comboBoxProduct);
+
         }
 
         private void btnDeleteProduct_Click(object sender, EventArgs e)
         {
-            comboBoxProduct.Items.Remove(comboBoxProduct.SelectedItem);
+            comboBoxProduct.Items.Remove(comboBoxProduct);
         }
     }
 }
