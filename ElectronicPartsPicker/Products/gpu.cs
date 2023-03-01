@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ElectronicPartsPicker.Products
 {
-    internal class gpu
+    internal class Gpu
     {
-        public int gpuId { get; set; }
+        public int GpuId { get; set; }
         public string Name { get; set; }
 
-        public double gpuValue { get; set; }
+        public double GpuValue { get; set; }
     }
 }
