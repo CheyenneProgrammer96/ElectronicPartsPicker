@@ -9,7 +9,7 @@ namespace ElectronicPartsPicker.Products
     public class Motherboard
     {
         /// <summary>
-        /// The unique identifer of the Motherboard
+        /// The unique identifier of the Motherboard
         /// </summary>
         public int MotherboardId { get; set; }
 
