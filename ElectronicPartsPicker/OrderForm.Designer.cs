@@ -28,123 +28,164 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnAddProduct = new Button();
-            btnDeleteProduct = new Button();
-            comboBoxProduct = new ComboBox();
-            txtOrderTotal = new TextBox();
-            txtTax = new TextBox();
-            txtSubtotal = new TextBox();
-            lblSubtotal = new Label();
-            lblTax = new Label();
-            lblOrderTotal = new Label();
-            lblProduct = new Label();
-            SuspendLayout();
+            this.btnAddProduct = new System.Windows.Forms.Button();
+            this.btnDeleteProduct = new System.Windows.Forms.Button();
+            this.comboBoxProduct = new System.Windows.Forms.ComboBox();
+            this.txtOrderTotal = new System.Windows.Forms.TextBox();
+            this.txtTax = new System.Windows.Forms.TextBox();
+            this.txtSubtotal = new System.Windows.Forms.TextBox();
+            this.lblSubtotal = new System.Windows.Forms.Label();
+            this.lblTax = new System.Windows.Forms.Label();
+            this.lblOrderTotal = new System.Windows.Forms.Label();
+            this.lblProduct = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBoxPType = new System.Windows.Forms.ComboBox();
+            this.SuspendLayout();
             // 
             // btnAddProduct
             // 
-            btnAddProduct.Location = new Point(652, 274);
-            btnAddProduct.Name = "btnAddProduct";
-            btnAddProduct.Size = new Size(198, 124);
-            btnAddProduct.TabIndex = 0;
-            btnAddProduct.Text = "Add Product";
-            btnAddProduct.UseVisualStyleBackColor = true;
+            this.btnAddProduct.Location = new System.Drawing.Point(401, 171);
+            this.btnAddProduct.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAddProduct.Name = "btnAddProduct";
+            this.btnAddProduct.Size = new System.Drawing.Size(122, 78);
+            this.btnAddProduct.TabIndex = 0;
+            this.btnAddProduct.Text = "Add Product";
+            this.btnAddProduct.UseVisualStyleBackColor = true;
             // 
             // btnDeleteProduct
             // 
-            btnDeleteProduct.Location = new Point(652, 516);
-            btnDeleteProduct.Name = "btnDeleteProduct";
-            btnDeleteProduct.Size = new Size(198, 113);
-            btnDeleteProduct.TabIndex = 1;
-            btnDeleteProduct.Text = "Delete Product";
-            btnDeleteProduct.UseVisualStyleBackColor = true;
+            this.btnDeleteProduct.Location = new System.Drawing.Point(401, 322);
+            this.btnDeleteProduct.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDeleteProduct.Name = "btnDeleteProduct";
+            this.btnDeleteProduct.Size = new System.Drawing.Size(122, 71);
+            this.btnDeleteProduct.TabIndex = 1;
+            this.btnDeleteProduct.Text = "Delete Product";
+            this.btnDeleteProduct.UseVisualStyleBackColor = true;
             // 
             // comboBoxProduct
             // 
-            comboBoxProduct.FormattingEnabled = true;
-            comboBoxProduct.Location = new Point(192, 216);
-            comboBoxProduct.Name = "comboBoxProduct";
-            comboBoxProduct.Size = new Size(242, 40);
-            comboBoxProduct.TabIndex = 2;
+            this.comboBoxProduct.FormattingEnabled = true;
+            this.comboBoxProduct.Location = new System.Drawing.Point(132, 132);
+            this.comboBoxProduct.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBoxProduct.Name = "comboBoxProduct";
+            this.comboBoxProduct.Size = new System.Drawing.Size(150, 28);
+            this.comboBoxProduct.TabIndex = 2;
             // 
             // txtOrderTotal
             // 
-            txtOrderTotal.Enabled = false;
-            txtOrderTotal.Location = new Point(214, 631);
-            txtOrderTotal.Name = "txtOrderTotal";
-            txtOrderTotal.Size = new Size(200, 39);
-            txtOrderTotal.TabIndex = 3;
+            this.txtOrderTotal.Enabled = false;
+            this.txtOrderTotal.Location = new System.Drawing.Point(132, 394);
+            this.txtOrderTotal.Margin = new System.Windows.Forms.Padding(2);
+            this.txtOrderTotal.Name = "txtOrderTotal";
+            this.txtOrderTotal.Size = new System.Drawing.Size(125, 27);
+            this.txtOrderTotal.TabIndex = 3;
             // 
             // txtTax
             // 
-            txtTax.Enabled = false;
-            txtTax.Location = new Point(214, 562);
-            txtTax.Name = "txtTax";
-            txtTax.Size = new Size(200, 39);
-            txtTax.TabIndex = 4;
+            this.txtTax.Enabled = false;
+            this.txtTax.Location = new System.Drawing.Point(132, 351);
+            this.txtTax.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTax.Name = "txtTax";
+            this.txtTax.Size = new System.Drawing.Size(125, 27);
+            this.txtTax.TabIndex = 4;
             // 
             // txtSubtotal
             // 
-            txtSubtotal.Enabled = false;
-            txtSubtotal.Location = new Point(214, 495);
-            txtSubtotal.Name = "txtSubtotal";
-            txtSubtotal.Size = new Size(200, 39);
-            txtSubtotal.TabIndex = 5;
+            this.txtSubtotal.Enabled = false;
+            this.txtSubtotal.Location = new System.Drawing.Point(132, 309);
+            this.txtSubtotal.Margin = new System.Windows.Forms.Padding(2);
+            this.txtSubtotal.Name = "txtSubtotal";
+            this.txtSubtotal.Size = new System.Drawing.Size(125, 27);
+            this.txtSubtotal.TabIndex = 5;
             // 
             // lblSubtotal
             // 
-            lblSubtotal.AutoSize = true;
-            lblSubtotal.Location = new Point(43, 495);
-            lblSubtotal.Name = "lblSubtotal";
-            lblSubtotal.Size = new Size(108, 32);
-            lblSubtotal.TabIndex = 6;
-            lblSubtotal.Text = "Subtotal:";
+            this.lblSubtotal.AutoSize = true;
+            this.lblSubtotal.Location = new System.Drawing.Point(26, 309);
+            this.lblSubtotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblSubtotal.Name = "lblSubtotal";
+            this.lblSubtotal.Size = new System.Drawing.Size(68, 20);
+            this.lblSubtotal.TabIndex = 6;
+            this.lblSubtotal.Text = "Subtotal:";
             // 
             // lblTax
             // 
-            lblTax.AutoSize = true;
-            lblTax.Location = new Point(43, 562);
-            lblTax.Name = "lblTax";
-            lblTax.Size = new Size(59, 32);
-            lblTax.TabIndex = 7;
-            lblTax.Text = "Tax: ";
+            this.lblTax.AutoSize = true;
+            this.lblTax.Location = new System.Drawing.Point(26, 351);
+            this.lblTax.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTax.Name = "lblTax";
+            this.lblTax.Size = new System.Drawing.Size(37, 20);
+            this.lblTax.TabIndex = 7;
+            this.lblTax.Text = "Tax: ";
             // 
             // lblOrderTotal
             // 
-            lblOrderTotal.AutoSize = true;
-            lblOrderTotal.Location = new Point(43, 639);
-            lblOrderTotal.Name = "lblOrderTotal";
-            lblOrderTotal.Size = new Size(138, 32);
-            lblOrderTotal.TabIndex = 8;
-            lblOrderTotal.Text = "Order Total:";
+            this.lblOrderTotal.AutoSize = true;
+            this.lblOrderTotal.Location = new System.Drawing.Point(26, 399);
+            this.lblOrderTotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblOrderTotal.Name = "lblOrderTotal";
+            this.lblOrderTotal.Size = new System.Drawing.Size(87, 20);
+            this.lblOrderTotal.TabIndex = 8;
+            this.lblOrderTotal.Text = "Order Total:";
             // 
             // lblProduct
             // 
-            lblProduct.AutoSize = true;
-            lblProduct.Location = new Point(53, 219);
-            lblProduct.Name = "lblProduct";
-            lblProduct.Size = new Size(101, 32);
-            lblProduct.TabIndex = 9;
-            lblProduct.Text = "Product:";
+            this.lblProduct.AutoSize = true;
+            this.lblProduct.Location = new System.Drawing.Point(26, 132);
+            this.lblProduct.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblProduct.Name = "lblProduct";
+            this.lblProduct.Size = new System.Drawing.Size(63, 20);
+            this.lblProduct.TabIndex = 9;
+            this.lblProduct.Text = "Product:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(26, 61);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(98, 20);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Product Type:";
+            // 
+            // comboBoxPType
+            // 
+            this.comboBoxPType.FormattingEnabled = true;
+            this.comboBoxPType.Items.AddRange(new object[] {
+            "Processors",
+            "NIC",
+            "Motherboards",
+            "Memory",
+            "GPU"});
+            this.comboBoxPType.Location = new System.Drawing.Point(132, 61);
+            this.comboBoxPType.Name = "comboBoxPType";
+            this.comboBoxPType.Size = new System.Drawing.Size(151, 28);
+            this.comboBoxPType.TabIndex = 11;
+            this.comboBoxPType.SelectedIndexChanged += new System.EventHandler(this.comboBoxPType_SelectedIndexChanged);
             // 
             // FrmOrderForm
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1095, 854);
-            Controls.Add(lblProduct);
-            Controls.Add(lblOrderTotal);
-            Controls.Add(lblTax);
-            Controls.Add(lblSubtotal);
-            Controls.Add(txtSubtotal);
-            Controls.Add(txtTax);
-            Controls.Add(txtOrderTotal);
-            Controls.Add(comboBoxProduct);
-            Controls.Add(btnDeleteProduct);
-            Controls.Add(btnAddProduct);
-            Name = "FrmOrderForm";
-            Text = "Order Form";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(674, 534);
+            this.Controls.Add(this.comboBoxPType);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblProduct);
+            this.Controls.Add(this.lblOrderTotal);
+            this.Controls.Add(this.lblTax);
+            this.Controls.Add(this.lblSubtotal);
+            this.Controls.Add(this.txtSubtotal);
+            this.Controls.Add(this.txtTax);
+            this.Controls.Add(this.txtOrderTotal);
+            this.Controls.Add(this.comboBoxProduct);
+            this.Controls.Add(this.btnDeleteProduct);
+            this.Controls.Add(this.btnAddProduct);
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "FrmOrderForm";
+            this.Text = "Order Form";
+            this.Load += new System.EventHandler(this.FrmOrderForm_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -159,5 +200,7 @@
         private Label lblTax;
         private Label lblOrderTotal;
         private Label lblProduct;
+        private Label label1;
+        private ComboBox comboBoxPType;
     }
 }
